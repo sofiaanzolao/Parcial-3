@@ -7,8 +7,8 @@ Este repositorio contiene el proyecto completo del sistema **RAG (Retrieval-Augm
 
 ## 📁 Estructura del repositorio
 📦 RAG-Credito-Caficultores
-1. 📜 codigo_rag.ipynb # Notebook completo con todo el pipeline RAG
-2. 📄 Documento_proyecto.pdf # Informe académico (máx. 3 páginas)
+1. 📜 codigo_Parcial3.ipynb # Notebook completo con todo el pipeline RAG
+2. 📄 Documento_Parcial3.pdf # Informe académico (máx. 3 páginas)
 3. 📂 Documentos PDF utilizados
  - 1.pdf
  - 2.pdf
