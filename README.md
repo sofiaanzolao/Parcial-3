@@ -8,16 +8,16 @@ Este repositorio contiene el proyecto completo del sistema **RAG (Retrieval-Augm
 ## 📁 Estructura del repositorio
 📦 RAG-Credito-Caficultores
 │
-├── 📜 codigo_rag.ipynb            # Notebook completo con todo el pipeline RAG
-├── 📄 documento_proyecto.pdf      # Informe académico (máx. 3 páginas)
-├── 📂 BASES_DE_DATOS/             # Carpeta con todos los documentos PDF utilizados
-│     ├── 1.pdf
-│     ├── 2.pdf
-│     ├── 3.pdf
-│     ├── ...
-│     └── 14.pdf
-├── 📘 README.md                   # Este archivo
-└── (otros archivos)
+├── 📜 codigo_rag.ipynb # Notebook completo con todo el pipeline RAG
+├── 📄 Documento_proyecto.pdf # Informe académico (máx. 3 páginas)
+├── 📂 BASES_DE_DATOS/ # Carpeta con todos los documentos PDF utilizados
+│ ├── 1.pdf
+│ ├── 2.pdf
+│ ├── 3.pdf
+│ ├── ...
+│ └── 14.pdf
+├── 📘 README.md # Este archivo
+
 La carpeta BASES_DE_DATOS contiene todos los documentos utilizados por el sistema, incluyendo:
 
 - Formularios del Banco Agrario
