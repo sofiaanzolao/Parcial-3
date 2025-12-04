@@ -17,7 +17,7 @@ Este repositorio contiene el proyecto completo del sistema **RAG (Retrieval-Augm
  - 14.pdf
 4. 📘 README.md # Este archivo
 
-La carpeta BASES_DE_DATOS contiene todos los documentos utilizados por el sistema, incluyendo:
+Los pdf utilizados por el sistema, incluyen documentos tales como:
 
 - Formularios del Banco Agrario
 
