@@ -104,7 +104,7 @@ print(ask(query, k=10, rerank_top=5))
 
 ## 📌 Requisitos
 Este proyecto está diseñado para ejecutarse en Google Colab, por lo que no requiere instalación local.
-El único paso manual es subir los PDFs ubicados en la carpeta BASES_DE_DATOS.
+El único paso manual es subir los PDFs que estan cargados en este mismo repositorio.
 
 ---
 
