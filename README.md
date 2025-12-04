@@ -34,7 +34,9 @@ La carpeta BASES_DE_DATOS contiene todos los documentos utilizados por el sistem
 
 Estos archivos se cargan manualmente cuando se ejecuta el notebook, tal como lo requiere Google Colab.
 
-🚀 ¿Qué hace este RAG?
+---
+
+## 🚀 ¿Qué hace este RAG?
 💬 Permite que un caficultor pregunte en lenguaje natural, por ejemplo:
 “Quiero comprar un dron de aspersión. ¿Qué crédito de inversión agropecuaria me sirve y qué tasa podría tener?”
 
@@ -48,7 +50,9 @@ El sistema:
 
 📌 Muestra las fuentes exactas de donde provino la información.
 
-🧠 Modelos utilizados
+---
+
+## 🧠 Modelos utilizados
 🔹 Encoder (para embeddings)
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 Elegido por ser rápido, ligero y muy efectivo con textos en español. Convierte los fragmentos de los PDFs en vectores que luego se almacenan en FAISS.
@@ -61,7 +65,9 @@ Ordena los fragmentos recuperados para seleccionar solo los más relevantes ante
 mistralai/Mistral-7B-Instruct-v0.3 (4-bit)
 Seleccionado por su buen rendimiento en español, su capacidad de seguir instrucciones y su compatibilidad con Google Colab en versión cuantizada.
 
-🏗️ Arquitectura del pipeline
+---
+
+## 🏗️ Arquitectura del pipeline
 El sistema sigue un flujo RAG clásico:
 
 1. Carga manual de PDFs
@@ -85,7 +91,9 @@ Se combinan consulta + contexto + instrucciones de seguridad.
 7. Generación con Mistral 7B
 El modelo produce una respuesta clara, precisa y citada.
 
-🧪 Ejemplo de uso
+---
+
+## 🧪 Ejemplo de uso
 query = (
     "Soy pequeño caficultor en Pitalito y quiero comprar un dron de aspersión. "
     "¿Qué líneas de crédito de inversión agropecuaria existen y qué plazos y tasas manejan?"
@@ -93,9 +101,13 @@ query = (
 
 print(ask(query, k=10, rerank_top=5))
 
-📌 Requisitos
+---
+
+## 📌 Requisitos
 Este proyecto está diseñado para ejecutarse en Google Colab, por lo que no requiere instalación local.
 El único paso manual es subir los PDFs ubicados en la carpeta BASES_DE_DATOS.
 
-🤝 Autores
+---
+
+## 🤝 Autores
 Proyecto desarrollado para el curso de Inteligencia Artificial aplicada, con énfasis en sistemas RAG y aplicaciones en el sector agropecuario colombiano.
