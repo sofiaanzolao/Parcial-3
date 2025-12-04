@@ -110,3 +110,4 @@ El único paso manual es subir los PDFs ubicados en la carpeta BASES_DE_DATOS.
 
 ## 🤝 Autores
 Proyecto desarrollado para el curso de Inteligencia Artificial aplicada, con énfasis en sistemas RAG y aplicaciones en el sector agropecuario colombiano.
+Por: Sofía Villamizar, Juan Sebastián Sierra, Nicolás Rich y Sofía Anzola Ortegón
