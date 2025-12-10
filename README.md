@@ -104,7 +104,7 @@ print(ask(query, k=10, rerank_top=5))
 
 ## 📌 Requisitos
 Este proyecto está diseñado para ejecutarse en Google Colab, por lo que no requiere instalación local.
-El único paso manual es subir los PDFs que estan cargados en este mismo repositorio.
+El único paso manual es subir los PDFs que estan cargados en este mismo repositorio en el botón "Choose Files" que aparecerá momentos después de correr el código.
 
 ---
 
