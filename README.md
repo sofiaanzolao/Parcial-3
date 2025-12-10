@@ -31,7 +31,7 @@ Los pdf utilizados por el sistema, incluyen documentos tales como:
 
 - Material técnico de Cenicafé
 
-Estos archivos se cargan manualmente cuando se ejecuta el notebook, tal como lo requiere Google Colab.
+Estos archivos se cargan manualmente cuando se ejecuta el notebook, en el botón "Choose Files"
 
 ---
 
