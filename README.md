@@ -12,7 +12,7 @@ Este repositorio contiene el proyecto completo del sistema **RAG (Retrieval-Augm
 3. 📂 Documentos PDF utilizados
  - 1.pdf
  - 2.pdf
- - 3.pdf
+ - 4.pdf
  - ...
  - 14.pdf
 4. 📘 README.md # Este archivo
